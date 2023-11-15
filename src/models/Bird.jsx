@@ -1,7 +1,7 @@
 import {useRef, useEffect, } from 'react'
 import {useFrame} from '@react-three/fiber'
 import { useAnimations, useGLTF } from '@react-three/drei'
-import birdScene from '../assets/3d/bird.glb'
+import birdScene from '../assets/3d/ufo.glb'
 
 const Bird = () => {
   const birdRef = useRef()
@@ -9,7 +9,7 @@ const Bird = () => {
   const {actions} = useAnimations(animations, birdRef)
   
   useEffect(() => {
-    actions['Take 001'].play()
+    actions['CINEMA_4D_Main'].play()
   }, [])
   
   useFrame(({clock, camera}) => {

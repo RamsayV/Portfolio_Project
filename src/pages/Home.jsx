@@ -3,7 +3,7 @@ import {Canvas} from '@react-three/fiber'
 import { Suspense, useState } from 'react'
 import Loader from '../components/Loader'
 import Island from '../models/Island'
-import Sky from '../models/sky'
+import Sky from '../models/Sky'
 import Bird from '../models/Bird'
 import Plane from '../models/Plane'
 import HomeInfo from '../components/HomeInfo'
@@ -51,12 +51,12 @@ const [currentStage, setCurrentStage] = useState(1)
     <Canvas 
     className={`w-full h-screen bg-transparent' ${isRotating?
       'cursor-grabbing' : 'cursor-grab'}`}
-    camera={{near:0.1, far:1000}}
+    camera={{  near:0.1, far:1000}}
     >
 <Suspense fallback={<Loader />}>
 <directionalLight position={[1,1,1]} intensity={2} />
 <ambientLight intensity={0.5}/>
-<hemisphereLight skyColor="#b1e1ff" groundcolor="#000000" intensity={1}/>
+<hemisphereLight skyColor="blue" groundcolor="#000000" intensity={1}/>
 <Bird />
 <Sky
  isRotating={isRotating}
