@@ -27,7 +27,7 @@ const Projects = () => {
               <img 
               src={project.iconUrl}
               alt="Project Icon"
-              className='ww-1/2 h-1/2 object-contain'
+              className='ww-1/2 h-full object-contain'
               
               />
             </div>

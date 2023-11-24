@@ -5,8 +5,8 @@ const CTA = () => {
   return (
     <section className='cta'>
         <p className='cta-text'>
-        Have a project in mind? <br className='sm:block hidden' /> 
-        Let's build it together!
+        Interested in Learning More ? <br className='sm:block hidden' /> 
+        Please Get In Touch!
         </p>
     <Link to="/contact" className='btn'>Contact</Link>
     </section>

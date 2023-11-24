@@ -1,15 +1,15 @@
-import hero from './hero.jpg'
-import meta from './meta.png'
-import shopify from './shopify.png'
-import starbucks from './starbucks.png'
-import tesla from './tesla.png'
-import logo from './logo.svg'
+import Battleships from './BattleShips.svg'
+import Snake from './Snake.png'
+import Chef from './chef.svg'
+import Rainbow from './rainbow.png'
+import Stocks from './stock.svg'
+import GPT from './GPT.png'
 
 export {
-    hero,
-    meta,
-    shopify,
-    starbucks,
-    tesla,
-    logo
+    Battleships,
+    Snake,
+    Chef,
+    Rainbow,
+    Stocks,
+    GPT
 }

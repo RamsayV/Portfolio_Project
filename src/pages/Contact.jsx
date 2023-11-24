@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useRef } from 'react'
 import emailjs from '@emailjs/browser'
-
+import Footer from '../components/Footer'
 
 
 const Contact = () => {
@@ -52,7 +52,7 @@ setForm({...form, [e.target.name]: e.target.value})
   
   return (
     <section className='relative flex lg:flex-row flex-col max-container h-[100vh]'>
-      <div className='flex-1 min-w-[50%] flex flex-col'>
+    <div className='flex-1 min-w-[50%] flex flex-col'>
         <h1 className='head-text'>Get In Touch</h1>
 
         <form 
@@ -113,6 +113,7 @@ setForm({...form, [e.target.name]: e.target.value})
           </form>
 
       </div>
+    <Footer />
     </section>
   )
 }

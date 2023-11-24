@@ -15,9 +15,7 @@ const About = () => {
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          Bridging linguistic diversity with technological innovation, I am a
-          multilingual student fluent in French and Spanish, eager to bring a
-          unique cultural perspective to the world of software engineering.
+        Bridging linguistic diversity with technological innovation, I am a multilingual graduate with a First in French and Spanish from the University of Bristol and a recent graduate of the General Assembly coding bootcamp. This unique combination of advanced language skills and programming fundamentals positions me to bring a unique cultural perspective to the world of software engineering. I am eager to leverage these skills to develop software solutions that are inclusive, innovative, and globally relevant.
         </p>
       </div>
 
@@ -55,7 +53,7 @@ const About = () => {
                 <img
                 src={experience.icon}
                 alt={experience.company_name}
-                className='w-[60%] h-[60%] object-contain'
+                className='w-[60%] h-[90%] object-contain'
                 />
               </div>}
               iconStyle={{background: experience.blog}}

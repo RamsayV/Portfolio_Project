@@ -17,10 +17,14 @@ const InfoBox = ({text,link,btnText}) => (
 const renderContent = {
     1: (
         <h1 className='sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5'>
-            Welcome, to <span className='font-semibold'>Ramsay's Portfolio</span>
-            <br />
-            Explore the Island and discover Projects
-        </h1>
+    Welcome, to <span className='font-semibold'>Ramsay's Portfolio</span>
+    <br />
+    Explore the Island and discover Projects
+    <br />
+    <a href="https://github.com/RamsayV" target="_blank" className="custom-link underline">My Github</a>
+    <br />
+    <a href="https://www.linkedin.com/in/ramsay-veitch-82863a1bb" target="_blank" className="custom-link underline">My LinkedIn</a>
+</h1>
     ),
     2: (
        <InfoBox
@@ -39,7 +43,7 @@ const renderContent = {
     ),
     4: (
         <InfoBox
-        text="Interested in bringing me onto the ... "
+        text="Interested in learning more? Please get in touch with any question! "
         link="/contact"
         btnText="Get In Touch"
         />
