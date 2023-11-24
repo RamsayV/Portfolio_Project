@@ -1,4 +1,4 @@
-import Battleships from './BattleShips.svg'
+import Battleships from './Battleships.svg'
 import Snake from './Snake.png'
 import Chef from './chef.svg'
 import Rainbow from './rainbow.png'
