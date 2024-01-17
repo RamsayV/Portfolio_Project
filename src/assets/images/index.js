@@ -4,6 +4,8 @@ import Chef from './chef.svg'
 import Rainbow from './rainbow.png'
 import Stocks from './stock.svg'
 import GPT from './GPT.png'
+import Social from './social.png'
+import Construction from './construction.png'
 
 export {
     Battleships,
@@ -11,5 +13,7 @@ export {
     Chef,
     Rainbow,
     Stocks,
-    GPT
+    GPT,
+    Social,
+    Construction
 }

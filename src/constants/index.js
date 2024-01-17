@@ -1,4 +1,5 @@
-import { Battleships, Snake, Chef, Rainbow, Stocks, GPT  } from "../assets/images";
+import { Battleships, Snake, Chef, Rainbow, Stocks, GPT, Social,
+    Construction  } from "../assets/images";
 import {
     contact,
     css,
@@ -122,7 +123,7 @@ export const experiences = [
         ],
     },
     {
-        title: " Enviromental Board Researcher",
+        title: "Enviromental Board Researcher",
         company_name: "Bristol Innovators Group ",
         icon: eco,
         iconBg: "#fbc3bc",
@@ -189,8 +190,22 @@ export const projects = [
         link: 'https://ramsayv.github.io/BattleShips-Browser-Game/',
     },
     {
-        iconUrl: GPT,
+        iconUrl: Social,
         theme: 'btn-back-green',
+        name: 'ChatterPulse',
+        description: 'A dynamic social media platform built with MongoDB, React, and Node.js, featuring real-time interaction, full CRUD capabilities, and robust authentication. Showcases expertise in full-stack development and responsive design, offering users a seamless, engaging experience. ',
+        link: 'https://chatterpulse.up.railway.app/',
+    },
+    {
+        iconUrl: Construction,
+        theme: 'btn-back-gray',
+        name: 'SpaceInvaderz',
+        description: 'A sleek and responsive website designed for a leading construction company, developed using Tailwind CSS and React. This site features an intuitive layout, showcasing company projects, services, and expertise.',
+        link: 'https://spaceinvaderzzz.netlify.app/',
+    },
+    {
+        iconUrl: GPT,
+        theme: 'btn-back-purple',
         name: 'Chat-Gpt Clone',
         description: 'Created a ChatGPT clone using React and OpenAI, providing a platform for AI-powered conversations. This web app allows users to interact with an AI in a threaded format, showcasing React\'s interactivity and OpenAI\'s advanced language capabilities. It offers a simple, engaging user experience, highlighting my skills in integrating AI with web technologies.',
         link: 'https://chatgpt-clone-project.netlify.app/',
