@@ -1,5 +1,5 @@
 import { Battleships, Snake, Chef, Rainbow, Stocks, GPT, Social,
-    Construction  } from "../assets/images";
+    Construction, Spotify, Booking  } from "../assets/images";
 import {
     contact,
     css,
@@ -191,17 +191,31 @@ export const projects = [
     },
     {
         iconUrl: Social,
-        theme: 'btn-back-green',
+        theme: 'btn-back-yellow',
         name: 'ChatterPulse',
         description: 'A dynamic social media platform built with MongoDB, React, and Node.js, featuring real-time interaction, full CRUD capabilities, and robust authentication. Showcases expertise in full-stack development and responsive design, offering users a seamless, engaging experience. ',
         link: 'https://chatterpulse.up.railway.app/',
     },
     {
-        iconUrl: Construction,
+        iconUrl: Spotify,
         theme: 'btn-back-gray',
+        name: 'Not-ify',
+        description: 'Not-ify is as a Spotify clone, built using the Shazam API. This project features self-developed REST APIs for efficient data management. It offers location-sensitive music recommendations and a comprehensive search function, tailored to user preferences and locations. The site exemplifies advanced web development skills, API integration, and a user-focused approach.',
+        link: 'https://not-ify-clone.netlify.app/',
+    },
+    {
+        iconUrl: Construction,
+        theme: 'btn-back-blue',
         name: 'SpaceInvaderz',
         description: 'A sleek and responsive website designed for a leading construction company, developed using Tailwind CSS and React. This site features an intuitive layout, showcasing company projects, services, and expertise.',
         link: 'https://spaceinvaderzzz.netlify.app/',
+    },
+    {
+        iconUrl: Booking,
+        theme: 'btn-back-gray',
+        name: 'Booking.com Clone',
+        description: 'In my Booking.com clone project, I successfully replicated the hero page of Booking.com, the first step towards building a comprehensive full-stack MERN booking website. This project involved scraping data from Booking.com to create a functional and efficient search system. It demonstrates my skills in web scraping, data handling, and website development.',
+        link: 'https://booking-clone-nxt-1gjgc5jzw-ramsay-veitchs-projects.vercel.app/',
     },
     {
         iconUrl: GPT,
