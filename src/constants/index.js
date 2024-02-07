@@ -183,11 +183,11 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: Battleships,
-        theme: 'btn-back-red',
-        name: 'Battle Ships BrowserGame',
-        description: 'Developed an interactive web application that simulates battleship gameplay, entirely built using Vanilla JavaScript, HTML, and CSS. This project features a dynamic, grid-based interface where players can strategically place their fleet of battleships and engage in turn-based combat against the computer.',
-        link: 'https://ramsayv.github.io/BattleShips-Browser-Game/',
+        iconUrl: Booking,
+        theme: 'btn-back-gray',
+        name: 'Booking.com Clone',
+        description: 'In my Booking.com clone project, I developed a full-stack application using the MERN stack, integrating Stripe for payments and Cloudinary for image management. It features a custom search functionality, complete CRUD operations, secure authentication, pagination, and global contexts for efficient state management. This project highlights my skills in creating interactive web applications with complex functionalities, including third-party integrations, showcasing my ability to build professional and feature-rich web platforms.',
+        link: 'https://booking-com-clone.onrender.com/',
     },
     {
         iconUrl: Social,
@@ -211,11 +211,11 @@ export const projects = [
         link: 'https://spaceinvaderzzz.netlify.app/',
     },
     {
-        iconUrl: Booking,
-        theme: 'btn-back-gray',
-        name: 'Booking.com Clone',
-        description: 'In my Booking.com clone project, I successfully replicated the hero page of Booking.com, the first step towards building a comprehensive full-stack MERN booking website. This project involved scraping data from Booking.com to create a functional and efficient search system. It demonstrates my skills in web scraping, data handling, and website development.',
-        link: 'https://booking-clone-nxt-1gjgc5jzw-ramsay-veitchs-projects.vercel.app/',
+        iconUrl: Battleships,
+        theme: 'btn-back-red',
+        name: 'Battle Ships BrowserGame',
+        description: 'Developed an interactive web application that simulates battleship gameplay, entirely built using Vanilla JavaScript, HTML, and CSS. This project features a dynamic, grid-based interface where players can strategically place their fleet of battleships and engage in turn-based combat against the computer.',
+        link: 'https://ramsayv.github.io/BattleShips-Browser-Game/',
     },
     {
         iconUrl: GPT,
