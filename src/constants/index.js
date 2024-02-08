@@ -222,7 +222,7 @@ export const projects = [
         theme: 'btn-back-purple',
         name: 'Chat-Gpt Clone',
         description: 'Created a ChatGPT clone using React and OpenAI, providing a platform for AI-powered conversations. This web app allows users to interact with an AI in a threaded format, showcasing React\'s interactivity and OpenAI\'s advanced language capabilities. It offers a simple, engaging user experience, highlighting my skills in integrating AI with web technologies.',
-        link: 'https://chatgpt-clone-project.netlify.app/',
+        link: 'https://chat-gpt-clone-openai.netlify.app/',
     },
     {
         iconUrl: Chef,
